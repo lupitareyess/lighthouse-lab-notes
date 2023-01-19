@@ -47,3 +47,18 @@
   2. `POST` - creates new data
   3. `PUT` - to edit existing data on the server
   4. `DELETE` - delete existing data
+
+### HTTP Responses 
+- Serever reads path and method to figure out what to do 
+- Sends response to client with info including:
+  - **Status Code** 
+    - Tells user if requested resource isn't found or server unable to perform action
+    - 3 digit number that server puts in response to client 
+    - Some good ones to know:
+      - 200: "Everything went great!"
+      - 201: "The request has succeeded and a new resource has been created"
+      - 404: "Resource not found
+      - 500: "Server had an error"
+  - **Response Body**
+    - Contains data - data, text, video, etc
+

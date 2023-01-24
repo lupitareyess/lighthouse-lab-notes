@@ -1,4 +1,4 @@
-## Intro to Template Englines
+## Intro to Template Engines
 
 ### What are templates?
 
